@@ -1,0 +1,95 @@
+.logo {
+  width: 100px;
+}
+
+.heading {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.searchbox {
+  text-align: center;
+}
+
+.searchbox > input {
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  outline: none;
+  min-width: 200px;
+  width: 40%;
+  border-radius: 20px;
+}
+
+.searchbox > input:active {
+  outline: none;
+}
+
+.searchbox > button {
+  background-color: lightgrey;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.table > table > thead {
+  background-color: green;
+  color: white;
+}
+
+th {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.table > table > tbody {
+  background-color: lightgreen;
+}
+
+td {
+  font-weight: 500;
+  padding: 3px;
+}
+
+.actual__table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user__name {
+  color: black;
+  text-decoration: none;
+}
+
+.movement__buttons {
+  text-align: center;
+}
+
+.prev,
+.next {
+  background-color: lightgreen;
+  padding: 20px;
+  border: none;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.prev {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.next {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
